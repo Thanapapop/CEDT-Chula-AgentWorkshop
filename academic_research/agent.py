@@ -22,7 +22,7 @@ from .sub_agents.academic_newresearch import academic_newresearch_agent
 from .sub_agents.academic_websearch import academic_websearch_agent
 from .sub_agents.weather_agent import weather_agent
 
-MODEL = "gemini-2.5-pro"
+MODEL = "gemini-3.5-flash"
 
 
 academic_coordinator = LlmAgent(
